@@ -1,0 +1,228 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #344966;
+}
+
+h2 {
+	
+}
+
+/* the hero picture & the nav bar */
+
+.hero {
+	display: flex;
+	font-family: Maven Pro;
+	font-size: 36px;
+	flex-wrap: wrap;
+	justify-content: start;
+	padding-bottom: 106px;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 53px;
+}
+
+.hero a {
+	margin-right: 21px;
+}
+
+#toppage {
+	margin-left: 251px;
+	margin-right: 177px;
+}
+
+.button {
+	color: black;
+	background-color: #9BB8C0;
+	padding: 15px 12px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: all ease .3s;
+}	
+
+.button:hover {
+	background-color: #9BB8C0;
+	border: #9BB8C0;
+}
+
+/* latest & pic */
+
+
+
+/* tour */
+
+.title1 {
+	justify-content: center;
+	margin-left: 610px;
+	margin-right: 610px;
+	margin-bottom: 53px;
+	width: 14%;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 48px;
+	background-color: #9BB8C0;
+	padding: 15px 12px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all ease .3s;
+}
+
+.tour {
+	font-family: Maven Pro;
+	font-size: 30;
+	align-self: center;
+	text-align: center;
+	margin-bottom: 106px;
+}
+
+.tour table {
+	display: flex;
+	justify-content: center;
+	justify-items: space-between;
+	border-spacing: 25px;
+}
+
+.tour a {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+}
+
+.date {
+	font-size: 21px;
+	font-weight: normal;
+	background-color: #7894BA;
+	padding: 16px 7px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all ease .3s;
+}
+
+.venue {
+	font-family: Ed Garamond;
+	font-size: 30px;
+	font-weight: normal;
+	background-color: #7894BA;
+	padding: 11px 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all ease .3s;
+}
+
+.tickets {
+	font-size: 30px;
+	font-weight: normal;
+	background-color: #7894BA;
+	padding: 12px 14px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all ease .3s;
+}
+
+/* releases & album covers */
+
+.releases {
+	font-family: Maven Pro;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 79px;
+}
+
+.title2 {
+	margin-left: 610px;
+	margin-right: 610px;
+	margin-bottom: 53px;
+	text-align: center;
+	width: 100%;
+	color: black;
+	font-weight: bold;
+	font-size: 44px;
+	background-color: #9BB8C0;
+	padding: 15px 12px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: all ease .3s;
+}
+
+.releases > div {
+	width: 30%;
+	text-align: center;
+	margin-bottom: 27px;
+	color: #EEA682;
+}
+
+.releases img {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.releases h3 {
+	font-size: 34px;
+	font-weight: normal;
+	padding-bottom: 0px;
+}
+
+.releases p {
+	font-family: Eb Garamond;
+	font-size: 24px;
+}
+
+/* about & band picture */
+
+.about {
+	align-self: center;
+	font-family: Maven Pro;
+	font-size: 24;
+	text-align: center;
+	margin-bottom: 106px;
+}
+
+.title3 {
+	justify-content: center;
+	margin-left: 610px;
+	margin-right: 610px;
+	margin-bottom: 53px;
+	width: 15%;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 48px;
+	background-color: #9BB8C0;
+	padding: 15px 12px;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all ease .3s;
+}
+
+.bio {
+	display: flex;
+	justify-content: center;
+	margin-top: 53px;
+}
+
+.bio p {
+	font-size: 23px;
+	background-color: #7894BA;
+	border-radius: 5px;
+	margin-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.text-wrap {
+	width: 25%;
+	align-self: center;
+}
+
+.bio img {
+	width: 380px;
+	height: 380px;
+	margin-right: 330;
+}
